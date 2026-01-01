@@ -1,0 +1,138 @@
+/* Hero Section
+.hero-section {
+  position: relative;
+  background: url('/images/bg5.jpg') center/cover no-repeat;
+  height: 90vh;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 3rem;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-btn {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Features cards */
+/* .feature-card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Animations */
+/* @keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+} */
+
+/* @keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+} */
+
+/* @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}  */
+
+
+
+/* Animations */
+.animate-fade-left {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: fadeLeft 1s forwards;
+}
+
+.animate-fade-right {
+  opacity: 0;
+  transform: translateX(20px);
+  animation: fadeRight 1s forwards;
+}
+
+@keyframes fadeLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Hero Section tweaks */
+.hero-section {
+  border-radius: 10px;
+}
+
+.hero-title {
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.hero-subtitle {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-btn {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Feature Cards */
+.feature-card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Additional fade animations */
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
